@@ -2,4 +2,10 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  { 'akinsho/toggleterm.nvim', opts = {
+    version = '*',
+    config = true,
+    open_mapping = '<c-s>',
+  } },
+}
