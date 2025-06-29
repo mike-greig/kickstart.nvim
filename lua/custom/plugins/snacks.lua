@@ -15,10 +15,28 @@ return {
     picker = { enabled = true },
     notifier = { enabled = true },
     quickfile = { enabled = true },
-    scope = { enabled = true },
+    scope = { enabled = false },
     scroll = { enabled = true },
     statuscolumn = { enabled = true },
     words = { enabled = true },
     lazygit = { enabled = true },
+  },
+
+  keys = {
+
+    {
+      '<leader>gg',
+      function()
+        Snacks.lazygit()
+      end,
+      desc = 'Lazygit',
+    },
+    {
+      '<leader>\\',
+      function()
+        require('snacks').explorer.open()
+      end,
+      desc = 'Open Snacks Explorer',
+    },
   },
 }
