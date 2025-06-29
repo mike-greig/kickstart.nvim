@@ -1,6 +1,10 @@
+# Kickstart .gitignores
 tags
 test.sh
 .luarc.json
 nvim
 
 spell/
+
+# Test files
+test_code/
