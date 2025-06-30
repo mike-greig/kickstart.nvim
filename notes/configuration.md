@@ -8,8 +8,8 @@
 - using copilot chat
 - Python debugging
 - some way to switch between different projects
-- some way to switch between different environments
-- python package manager
+  ~~some way to switch between different environments~~
+- learn to use mini-surround
 
 # Tweaks:
 
